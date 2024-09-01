@@ -11,8 +11,8 @@ pipeline {
             steps {
                 // bat 'mkdir satishnew'
                 // echo 'done creating directory'
-                bat '''echo \'csc Version\'
-csc --version'''
+                bat '''echo \'Java Version\'
+java --version'''
             }
         }
     }
